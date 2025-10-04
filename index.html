@@ -1014,13 +1014,13 @@ mask-image: linear-gradient(to top, transparent 40%, #228b22 80%) !important;
 }
 .message {
     position: fixed;
-    width: 100%;
-    height: 100%;
+    max-width: 80vh;
+    max-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
     color: #fff;
     opacity: 0; /* إخفاء الرسالة في البداية */
     transition: opacity 2s ease-in-out; /* إضافة تأثير تلاشي */
@@ -1035,7 +1035,7 @@ mask-image: linear-gradient(to top, transparent 40%, #228b22 80%) !important;
 } */
 
 .message p {
-    font-size: 20px;
+    font-size: 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
     </style>
